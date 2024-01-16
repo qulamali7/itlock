@@ -1,0 +1,38 @@
+#AdminPanel {
+    table {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        width: 80%;
+        margin: auto;
+        border-collapse: collapse;
+        td,
+        th {
+            color: black;
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px 50px;
+        }
+
+        th {
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        td {
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .table-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+    }
+}

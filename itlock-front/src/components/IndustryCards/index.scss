@@ -1,0 +1,16 @@
+.industry_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .industry_card{
+        width: 24%;
+        background: #F3F8FF;
+        padding: 60px 100px;
+        &_img{
+            margin-bottom: 10px;
+        }
+        p{
+
+        }
+    }
+}

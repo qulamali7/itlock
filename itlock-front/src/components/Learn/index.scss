@@ -1,0 +1,22 @@
+#learn{
+    padding: 80px 0px;
+    .learn_container{
+        max-width: 1200px;
+        margin: auto;
+        .learn_content{
+            background-color: #003072;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &_left{
+                padding: 80px;
+                h3{
+                    color: white;
+                }
+                p{
+                    color: white;
+                }
+            }
+        }
+    }
+}

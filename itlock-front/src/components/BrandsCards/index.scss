@@ -1,0 +1,22 @@
+.brands_cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .brands_card{
+        width: 32%;
+        .card_img{
+            img{
+
+            }
+        }
+        .card_text{
+            margin-top: 10px;
+            h4{
+
+            }
+            p{
+
+            }
+        }
+    }
+}
